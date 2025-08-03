@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "660998f2-2966-4863-bd33-35e2f1ba17fb",
+		"name": "AcmeAir",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5859808"
+	},
+	"item": [
+		{
+			"name": "Search Flight Detail by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "hello world",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/acmeair/flights/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"acmeair",
+						"flights",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Flights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/acmeair/flights/search?origin=Auckland&destination=Wellington&departureDate=2025-08-09&returnDate=2025-08-13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"acmeair",
+						"flights",
+						"search"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "Auckland",
+							"description": "City that you are flying out from"
+						},
+						{
+							"key": "destination",
+							"value": "Wellington",
+							"description": "City that you are flying to"
+						},
+						{
+							"key": "departureDate",
+							"value": "2025-08-09",
+							"description": "The date which you will depart from Origin"
+						},
+						{
+							"key": "returnDate",
+							"value": "2025-08-13",
+							"description": "The date which you will depart from Destination (Optional)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actuator Health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/actuator/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"actuator",
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

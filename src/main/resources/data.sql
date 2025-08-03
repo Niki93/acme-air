@@ -1,0 +1,8 @@
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2884', 'Auckland', 'Wellington', '2025-08-09 07:00:00', '2025-08-09 07:30:00', 180);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2886', 'Auckland', 'Wellington', '2025-08-09 08:00:00', '2025-08-09 08:30:00', 180);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2822', 'Auckland', 'Wellington', '2025-08-10 09:30:00', '2025-08-10 10:00:00', 120);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2890', 'Wellington', 'Christchurch', '2025-08-11 10:30:00', '2025-08-09 12:00:00', 120);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2988', 'Christchurch', 'Auckland', '2025-08-12 14:30:00', '2025-08-12 16:15:00', 150);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('SQ272', 'Auckland', 'Singapore', '2025-08-09 00:30:00', '2025-08-10 06:30:00', 350);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2885', 'Wellington', 'Auckland', '2025-08-13 10:30:00', '2025-08-09 11:00:00', 120);
+INSERT INTO flight (flight_number, origin, destination, departure_date_time, arrival_date_time, available_seats) VALUES('NZ2887', 'Wellington', 'Auckland', '2025-08-13 11:30:00', '2025-08-09 12:00:00', 120);

@@ -1,0 +1,4 @@
+INSERT INTO flight (origin, destination, flight_date, seats_available, cost, seat_class) VALUES('Auckland', 'Wellington', '2025-08-01', 100, 350, 'Economy');
+INSERT INTO flight (origin, destination, flight_date, seats_available, cost, seat_class) VALUES('Wellington', 'Christchurch', '2025-08-02', 75, 250, 'Economy');
+INSERT INTO flight (origin, destination, flight_date, seats_available, cost, seat_class) VALUES('Christchurch', 'Auckland', '2025-08-03', 50, 550, 'Economy');
+INSERT INTO flight (origin, destination, flight_date, seats_available, cost, seat_class) VALUES('Auckland', 'Singapore', '2025-08-01', 200, 1800, 'Economy');
