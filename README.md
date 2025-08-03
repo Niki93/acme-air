@@ -7,10 +7,10 @@
 
 
 ## API(s) implemented
-- Search Flights
+- Search Flights (/acme-air/flights/search)
   - Flights can be searched using Origin, Destination and Departure Date
   - Return Date is Optional
-- Search Flights By Id
+- Search Flights By Id (/acme-air/flights/{flightId})
 
 ## API(s) Not implemented
 - Create and save passenger flight booking
@@ -18,11 +18,20 @@
 - Cancel an existing passenger's flight booking
 
 
-## How to run the application
+## Commands
+### Run Application
 Using Gradle: In your terminal, go to the project directory root folder and run command 
 ```bash
 ./gradlew bootRun
 ```
+Use postman script to test endpoints
+
+### Run Tests
+Using Gradle: In your terminal, go to the project directory root folder and run command
+```bash
+./gradlew build
+```
+A index.html file can be found under build>>reports>>tests
 
 ## Postman Collection
 Postman script [AcmeAir.postman_collection.json](src/main/resources/AcmeAir.postman_collection.json) can be found under the resources folder and used to test the 2 APIs
